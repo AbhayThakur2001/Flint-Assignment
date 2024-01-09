@@ -1,0 +1,72 @@
+/* src/components/TokenBalance.css */
+body{
+    background-image: url('../Images/blockchain-logo.jpg');
+}
+.token-balance-container {
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    background-color:  #173937;
+    animation: fadeIn 1s ease-in-out;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    color: white;
+    margin-top: 100px;
+    align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+    /* background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #e96262;
+  padding: 20px; */
+  }
+  
+  .balance,
+  .change {
+    margin: 20px 0;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  /* Add to TokenBalance.css or create a new CSS file */
+
+/* .blockchain-logo {
+    width: 50px;
+    height: 50px;
+    background-image: url('../Images/blockchain-logo1.png');
+    animation: rotate 2s linear infinite;
+  } */
+  
+  @keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  .Alert {
+    background-color: #ffcccb;
+    color: #d8000c;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 5px;
+  }
+
+  h1{
+    color: white;
+  }
+  
